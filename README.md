@@ -83,3 +83,15 @@ O se puede utilizar el operador 'OR'
 'SELECT * FROM Clientes WHERE identificacion BETWEEN 110 AND 150
 
 ![consultas9](./img/9.png)
+
+## Instruccion DELETE
+-Permite borrar todos o un grupo especifico de registros de una tabla.
+- Su formato es: 'DELETE FROM nombre_tabla'
+
+### Eliminacion No. 1
+
+1. Eliminar los registros cuya identificacion sea mayor a 170
+
+'DELETE FROM cliente WHERE identificacion > 170'
+
+![Eleminacion](./img/Delete.png)
