@@ -111,3 +111,17 @@ O se puede utilizar el operador 'OR'
 'UPDATE Cliente set Ciudad_nac = 'Pereira' WHERE identificacion=114'
 
 ![ACTUALIZACION](./img/actualisacon.png)
+
+## Creacion tabla Cliente
+
+### Diccionario de datos
+|Campo|Tipo de dato|Longitud|
+|-----|------------|--------|
+|***no_pedido**| varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimiento|date||
+|observacion|varchar|30|
+
+### Modelo Entidad - Relacion
+![modelo](./img/Modelo.png)
