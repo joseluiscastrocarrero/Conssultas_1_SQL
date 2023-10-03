@@ -95,3 +95,19 @@ O se puede utilizar el operador 'OR'
 'DELETE FROM cliente WHERE identificacion > 170'
 
 ![Eleminacion](./img/Delete.png)
+
+2. Eliminar los reistros cuya identificacion sea igual a 116
+
+'DELETE FROM Clientes WHERE identificacion = 116'
+
+## Instruccion UPDATE
+-Permite actualizar un campo de una tabla.
+- Su formato es: 'UPDATE nombre_tabla SET nombre campo = valor'
+
+### Actualizacion No. 1
+
+1. Para actualizar la ciudad de nacimiento de cristian vanegas, cuya identificacion es 114
+
+'UPDATE Cliente set Ciudad_nac = 'Pereira' WHERE identificacion=114'
+
+![ACTUALIZACION](./img/actualisacon.png)
