@@ -1,5 +1,5 @@
 # Consultas_1_SQL
-# INtroduccion a las consultas a una BD usando el lenguaje SQL 
+# Introduccion a las consultas a una BD usando el lenguaje SQL 
 
 ## Base de datos: Ventas 
 ## Tabla: Cliente 
@@ -52,3 +52,10 @@ O se puede utilizar el operador 'OR'
 
 ![Consulta5](./img/Consulta5.png)
 
+### Consulta No. 6 
+
+6. Si se desea obtener los registros cuyos nombres empiecen por la letra 'A', se debe utilizar el operador 'LIKE' que utiliza los patrones '%' (todos) y '_' (Caracter).
+
+'SELECT * FROM Clientes WHERE nombre LIKE 'A%'
+
+![consultas6](./img/6.png)
