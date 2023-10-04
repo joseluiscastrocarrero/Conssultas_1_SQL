@@ -128,3 +128,21 @@ O se puede utilizar el operador 'OR'
 
 ### Tabla de pedidos
 ![pedidos](./img/Pedidos.png)
+
+## Operador INNER JOIN
+- permite obtener datos de dos omas tablas.
+-cuando se realiza la concatenacion de las tablas, no necesesariamente se deben mostrar todos los datos de las tablas.
+-su formato es:
+'SELECT tabla1.campo, tabla2.campo, ... FROM tabla_principal INNER JOIN tabla_secundaria ON campo_comun_tabla11 - campo_comun_tabla2
+
+1. Para visualizar los campos identificacion, nombre, apellidos de a tabla cliente y no_pedido, fecha_compra, fecha_vencimiento y obsevacion de la tabla pedido,se debe realizar la siguiente instruccion.
+
+'SELECT Cliente.identificacion, Cliente.nombre, Cliente.apellidos, Pedido.no_pedido, Pedido.frcha_compra, Pedido.fecha_vencimiento, Pedido.observacion FROM Cliente INNER JOIN Pedido'
+
+![operador](./img/innerjoin1.png)
+
+2. Para visualzar todos los campos de las tablas cliente y pedido donde identificacion sea mayor que 100, se debe realizar la siguiente instruccion: 
+
+'SELECT Cliente,*, pedido, * FROM Cliente INNER JOIN pedido on clientes.identificacion = pedido , idea cliente WHERE Cliente .identificacion>100'
+
+![INNER JOIN](./img/inner2.png)
